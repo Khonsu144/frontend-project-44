@@ -1,24 +1,27 @@
 {
-  "name": "frontend-project-44",
+  "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Khonsu144/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Khonsu144/frontend-project-44/actions)",
-  "main": "index.js",
-  "bin": {
-    "frontend-project-44": "bin/brain-games.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "type": "module",
+  "description": "Brain Games project",
+  "keywords": [
+    "brain-games",
+    "hexlet"
+  ],
+  "homepage": "https://github.com/Khonsu144/frontend-project-44#readme",
+  "bugs": {
+    "url": "https://github.com/Khonsu144/frontend-project-44/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Khonsu144/frontend-project-44.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Khonsu144/frontend-project-44/issues"
+  "author": "Khonsu_144",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
   },
-  "homepage": "https://github.com/Khonsu144/frontend-project-44#readme"
+  "main": "bin/brain-games.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
