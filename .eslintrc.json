@@ -1,0 +1,23 @@
+{
+    "env": {
+        "node": true,
+        "es2024": true
+    },
+    "extends": ["eslint:recommended"],
+    "plugins": ["@stylistic"],
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2024
+    },
+    "rules": {
+        "@stylistic/indent": ["error", 2],
+        "@stylistic/linebreak-style": ["error", "unix"],
+        "@stylistic/quotes": ["error", "single"],
+        "@stylistic/semi": ["error", "always"],
+        "@stylistic/comma-dangle": ["error", "always-multiline"],
+        "@stylistic/brace-style": ["error", "1tbs"],
+        "@stylistic/arrow-parens": ["error", "always"],
+        "@stylistic/no-multiple-empty-lines": ["error", { "max": 1 }],
+        "@stylistic/eol-last": ["error", "always"]
+    }
+}
