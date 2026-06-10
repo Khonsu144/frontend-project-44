@@ -21,3 +21,4 @@ export const getGameData = () => {
 };
 
 export const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+

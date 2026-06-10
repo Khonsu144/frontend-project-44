@@ -31,3 +31,4 @@ export const getGameData = () => {
 };
 
 export const gameRules = 'What is the result of the expression?';
+

@@ -26,3 +26,4 @@ export const getGameData = () => {
 };
 
 export const gameRules = 'Find the greatest common divisor of given numbers.';
+

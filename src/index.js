@@ -48,3 +48,4 @@ export const startGame = (gameRules, getGameData) => {
     console.log(`Congratulations, ${name}!`);
   }
 };
+

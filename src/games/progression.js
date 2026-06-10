@@ -38,3 +38,4 @@ export const getGameData = () => {
 };
 
 export const gameRules = 'What number is missing in the progression?';
+
