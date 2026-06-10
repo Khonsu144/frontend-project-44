@@ -23,9 +23,13 @@ jobs:
         run: npm ci
       
       - name: Run lint
-        run: make lint
+        run: npx eslint .
       
       - name: SonarQube Scan
         uses: SonarSource/sonarcloud-github-action@v2
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          args: >
+            -Dsonar.projectKey=Khonsu144_frontend-project-44
+            -Dsonar.organization=khonsu144
